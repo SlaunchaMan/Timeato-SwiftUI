@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F14907B23C1475F0006883C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14907A23C1475F0006883C /* AppDelegate.swift */; };
+		1F14907D23C1475F0006883C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14907C23C1475F0006883C /* RootView.swift */; };
+		1F14907F23C147600006883C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F14907E23C147600006883C /* Assets.xcassets */; };
+		1F14908223C147600006883C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F14908123C147600006883C /* Preview Assets.xcassets */; };
+		1F14908523C147600006883C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F14908323C147600006883C /* LaunchScreen.storyboard */; };
+		1F14908A23C1477C0006883C /* DisplayLinkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */; };
+		1F14908B23C1477C0006883C /* PomodoroTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */; };
+		1F14908C23C1477C0006883C /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A523BCF07200833830 /* PomodoroTimerView.swift */; };
+		1F14908D23C1477C0006883C /* PreferencesForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */; };
+		1F14908E23C1477C0006883C /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */; };
+		1F14908F23C1477C0006883C /* SettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */; };
+		1F14909023C1477C0006883C /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3023C12C210054CF3C /* UserPreference.swift */; };
+		1F4159FB23C5239500874D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4159FA23C5239500874D7F /* AppDelegate.swift */; };
+		1F4159FD23C5239500874D7F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4159FC23C5239500874D7F /* RootView.swift */; };
+		1F4159FF23C5239600874D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4159FE23C5239600874D7F /* Assets.xcassets */; };
+		1F415A0223C5239600874D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F415A0123C5239600874D7F /* Preview Assets.xcassets */; };
+		1F415A0523C5239600874D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F415A0323C5239600874D7F /* Main.storyboard */; };
+		1F415A0B23C523DE00874D7F /* DisplayLinkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */; };
+		1F415A0C23C523DE00874D7F /* PomodoroTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */; };
+		1F415A0D23C523DE00874D7F /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A523BCF07200833830 /* PomodoroTimerView.swift */; };
+		1F415A0E23C523DE00874D7F /* PreferencesForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */; };
+		1F415A0F23C523DE00874D7F /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */; };
+		1F415A1023C523DE00874D7F /* SettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */; };
+		1F415A1123C523DE00874D7F /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3023C12C210054CF3C /* UserPreference.swift */; };
+		1F584B2023BEB0F10053FBC9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B1F23BEB0F10053FBC9 /* RootView.swift */; };
+		1F584B2223BEB15D0053FBC9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B2123BEB15D0053FBC9 /* RootView.swift */; };
+		1F584B2423BEB1F90053FBC9 /* PreferencesForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */; };
+		1F7F078623BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */; };
+		1F7F078D23BD897200D1C6D3 /* Timeato-watchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F7F078C23BD897200D1C6D3 /* Timeato-watchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7F079323BD897200D1C6D3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F079123BD897200D1C6D3 /* Interface.storyboard */; };
+		1F7F079523BD897700D1C6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F079423BD897700D1C6D3 /* Assets.xcassets */; };
+		1F7F079C23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7F079B23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7F07A323BD897700D1C6D3 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F07A223BD897700D1C6D3 /* HostingController.swift */; };
+		1F7F07A523BD897700D1C6D3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F07A423BD897700D1C6D3 /* ExtensionDelegate.swift */; };
+		1F7F07A723BD897800D1C6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F07A623BD897800D1C6D3 /* Assets.xcassets */; };
+		1F7F07AA23BD897800D1C6D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F07A923BD897800D1C6D3 /* Preview Assets.xcassets */; };
+		1F7F07B723BD8B3600D1C6D3 /* DisplayLinkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */; };
+		1F7F07B823BD8BA100D1C6D3 /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A523BCF07200833830 /* PomodoroTimerView.swift */; };
+		1F9486A223BCF07200833830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A123BCF07200833830 /* AppDelegate.swift */; };
+		1F9486A423BCF07200833830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A323BCF07200833830 /* SceneDelegate.swift */; };
+		1F9486A623BCF07200833830 /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9486A523BCF07200833830 /* PomodoroTimerView.swift */; };
+		1F9486A823BCF07600833830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9486A723BCF07600833830 /* Assets.xcassets */; };
+		1F9486AB23BCF07600833830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9486AA23BCF07600833830 /* Preview Assets.xcassets */; };
+		1F9486AE23BCF07600833830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9486AC23BCF07600833830 /* LaunchScreen.storyboard */; };
+		1FBDAF2B23C0FD890054CF3C /* PomodoroTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */; };
+		1FBDAF2C23C0FD890054CF3C /* PomodoroTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */; };
+		1FBDAF2E23C1163D0054CF3C /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */; };
+		1FBDAF2F23C1163D0054CF3C /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */; };
+		1FBDAF3123C12C210054CF3C /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3023C12C210054CF3C /* UserPreference.swift */; };
+		1FBDAF3223C12C210054CF3C /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3023C12C210054CF3C /* UserPreference.swift */; };
+		1FBDAF3323C136080054CF3C /* PreferencesForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */; };
+		1FBDAF3523C139BA0054CF3C /* SettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */; };
+		1FBDAF3623C139BA0054CF3C /* SettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7F078E23BD897200D1C6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F94869623BCF07200833830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7F078B23BD897200D1C6D3;
+			remoteInfo = "Timeato-watchOS WatchKit App";
+		};
+		1F7F079D23BD897700D1C6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F94869623BCF07200833830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7F079A23BD897700D1C6D3;
+			remoteInfo = "Timeato-watchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F7F07AF23BD897800D1C6D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F7F079C23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F07B323BD897800D1C6D3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F7F078D23BD897200D1C6D3 /* Timeato-watchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F14907823C1475F0006883C /* Timeato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F14907A23C1475F0006883C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F14907C23C1475F0006883C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1F14907E23C147600006883C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F14908123C147600006883C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F14908423C147600006883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F14908623C147600006883C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4159F823C5239500874D7F /* Timeato-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timeato-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4159FA23C5239500874D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4159FC23C5239500874D7F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1F4159FE23C5239600874D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F415A0123C5239600874D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F415A0423C5239600874D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F415A0623C5239600874D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F415A0723C5239600874D7F /* Timeato_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timeato_macOS.entitlements; sourceTree = "<group>"; };
+		1F584B1F23BEB0F10053FBC9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1F584B2123BEB15D0053FBC9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesForm.swift; sourceTree = "<group>"; };
+		1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLinkPublisher.swift; sourceTree = "<group>"; };
+		1F7F078923BD897200D1C6D3 /* Timeato-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timeato-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7F078C23BD897200D1C6D3 /* Timeato-watchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timeato-watchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7F079223BD897200D1C6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1F7F079423BD897700D1C6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F7F079623BD897700D1C6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7F079B23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Timeato-watchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7F07A223BD897700D1C6D3 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		1F7F07A423BD897700D1C6D3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1F7F07A623BD897800D1C6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F7F07A923BD897800D1C6D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F7F07AB23BD897800D1C6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F94869E23BCF07200833830 /* Timeato-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timeato-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9486A123BCF07200833830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F9486A323BCF07200833830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F9486A523BCF07200833830 /* PomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerView.swift; sourceTree = "<group>"; };
+		1F9486A723BCF07600833830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9486AA23BCF07600833830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F9486AD23BCF07600833830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9486AF23BCF07600833830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerController.swift; sourceTree = "<group>"; };
+		1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		1FBDAF3023C12C210054CF3C /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F14907523C1475F0006883C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4159F523C5239500874D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F079823BD897700D1C6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F94869B23BCF07200833830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F14907923C1475F0006883C /* Timeato-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F14907A23C1475F0006883C /* AppDelegate.swift */,
+				1F14907C23C1475F0006883C /* RootView.swift */,
+				1F14907E23C147600006883C /* Assets.xcassets */,
+				1F14908323C147600006883C /* LaunchScreen.storyboard */,
+				1F14908623C147600006883C /* Info.plist */,
+				1F14908023C147600006883C /* Preview Content */,
+			);
+			path = "Timeato-tvOS";
+			sourceTree = "<group>";
+		};
+		1F14908023C147600006883C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F14908123C147600006883C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F4159F923C5239500874D7F /* Timeato-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F4159FA23C5239500874D7F /* AppDelegate.swift */,
+				1F4159FC23C5239500874D7F /* RootView.swift */,
+				1F4159FE23C5239600874D7F /* Assets.xcassets */,
+				1F415A0323C5239600874D7F /* Main.storyboard */,
+				1F415A0623C5239600874D7F /* Info.plist */,
+				1F415A0723C5239600874D7F /* Timeato_macOS.entitlements */,
+				1F415A0023C5239600874D7F /* Preview Content */,
+			);
+			path = "Timeato-macOS";
+			sourceTree = "<group>";
+		};
+		1F415A0023C5239600874D7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F415A0123C5239600874D7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F584B1E23BEA9240053FBC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F078523BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift */,
+				1FBDAF2A23C0FD890054CF3C /* PomodoroTimerController.swift */,
+				1F9486A523BCF07200833830 /* PomodoroTimerView.swift */,
+				1F584B2323BEB1F90053FBC9 /* PreferencesForm.swift */,
+				1FBDAF2D23C1163D0054CF3C /* ProgressCircle.swift */,
+				1FBDAF3423C139BA0054CF3C /* SettingsStorage.swift */,
+				1FBDAF3023C12C210054CF3C /* UserPreference.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1F7F079023BD897200D1C6D3 /* Timeato-watchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F079123BD897200D1C6D3 /* Interface.storyboard */,
+				1F7F079423BD897700D1C6D3 /* Assets.xcassets */,
+				1F7F079623BD897700D1C6D3 /* Info.plist */,
+			);
+			path = "Timeato-watchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		1F7F079F23BD897700D1C6D3 /* Timeato-watchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F07A223BD897700D1C6D3 /* HostingController.swift */,
+				1F7F07A423BD897700D1C6D3 /* ExtensionDelegate.swift */,
+				1F7F07A623BD897800D1C6D3 /* Assets.xcassets */,
+				1F7F07AB23BD897800D1C6D3 /* Info.plist */,
+				1F7F07A823BD897800D1C6D3 /* Preview Content */,
+				1F584B2123BEB15D0053FBC9 /* RootView.swift */,
+			);
+			path = "Timeato-watchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1F7F07A823BD897800D1C6D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F07A923BD897800D1C6D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F94869523BCF07200833830 = {
+			isa = PBXGroup;
+			children = (
+				1F584B1E23BEA9240053FBC9 /* Common */,
+				1F9486A023BCF07200833830 /* Timeato-iOS */,
+				1F7F079023BD897200D1C6D3 /* Timeato-watchOS WatchKit App */,
+				1F7F079F23BD897700D1C6D3 /* Timeato-watchOS WatchKit Extension */,
+				1F14907923C1475F0006883C /* Timeato-tvOS */,
+				1F4159F923C5239500874D7F /* Timeato-macOS */,
+				1F94869F23BCF07200833830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F94869F23BCF07200833830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F94869E23BCF07200833830 /* Timeato-iOS.app */,
+				1F7F078923BD897200D1C6D3 /* Timeato-watchOS.app */,
+				1F7F078C23BD897200D1C6D3 /* Timeato-watchKit App.app */,
+				1F7F079B23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex */,
+				1F14907823C1475F0006883C /* Timeato.app */,
+				1F4159F823C5239500874D7F /* Timeato-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9486A023BCF07200833830 /* Timeato-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F9486A123BCF07200833830 /* AppDelegate.swift */,
+				1F9486A323BCF07200833830 /* SceneDelegate.swift */,
+				1F9486A723BCF07600833830 /* Assets.xcassets */,
+				1F9486AC23BCF07600833830 /* LaunchScreen.storyboard */,
+				1F9486AF23BCF07600833830 /* Info.plist */,
+				1F9486A923BCF07600833830 /* Preview Content */,
+				1F584B1F23BEB0F10053FBC9 /* RootView.swift */,
+			);
+			path = "Timeato-iOS";
+			sourceTree = "<group>";
+		};
+		1F9486A923BCF07600833830 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F9486AA23BCF07600833830 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F14907723C1475F0006883C /* Timeato-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F14908923C147600006883C /* Build configuration list for PBXNativeTarget "Timeato-tvOS" */;
+			buildPhases = (
+				1F14907423C1475F0006883C /* Sources */,
+				1F14907523C1475F0006883C /* Frameworks */,
+				1F14907623C1475F0006883C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timeato-tvOS";
+			productName = "Timeato-tvOS";
+			productReference = 1F14907823C1475F0006883C /* Timeato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4159F723C5239500874D7F /* Timeato-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F415A0823C5239600874D7F /* Build configuration list for PBXNativeTarget "Timeato-macOS" */;
+			buildPhases = (
+				1F4159F423C5239500874D7F /* Sources */,
+				1F4159F523C5239500874D7F /* Frameworks */,
+				1F4159F623C5239500874D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timeato-macOS";
+			productName = "Timeato-macOS";
+			productReference = 1F4159F823C5239500874D7F /* Timeato-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F7F078823BD897200D1C6D3 /* Timeato-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7F07B423BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS" */;
+			buildPhases = (
+				1F7F078723BD897200D1C6D3 /* Resources */,
+				1F7F07B323BD897800D1C6D3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7F078F23BD897200D1C6D3 /* PBXTargetDependency */,
+			);
+			name = "Timeato-watchOS";
+			productName = "Timeato-watchOS";
+			productReference = 1F7F078923BD897200D1C6D3 /* Timeato-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1F7F078B23BD897200D1C6D3 /* Timeato-watchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7F07B023BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS WatchKit App" */;
+			buildPhases = (
+				1F7F078A23BD897200D1C6D3 /* Resources */,
+				1F7F07AF23BD897800D1C6D3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7F079E23BD897700D1C6D3 /* PBXTargetDependency */,
+			);
+			name = "Timeato-watchOS WatchKit App";
+			productName = "Timeato-watchOS WatchKit App";
+			productReference = 1F7F078C23BD897200D1C6D3 /* Timeato-watchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F7F079A23BD897700D1C6D3 /* Timeato-watchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7F07AC23BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS WatchKit Extension" */;
+			buildPhases = (
+				1F7F079723BD897700D1C6D3 /* Sources */,
+				1F7F079823BD897700D1C6D3 /* Frameworks */,
+				1F7F079923BD897700D1C6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timeato-watchOS WatchKit Extension";
+			productName = "Timeato-watchOS WatchKit Extension";
+			productReference = 1F7F079B23BD897700D1C6D3 /* Timeato-watchKit App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1F94869D23BCF07200833830 /* Timeato-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9486B223BCF07600833830 /* Build configuration list for PBXNativeTarget "Timeato-iOS" */;
+			buildPhases = (
+				1F94869A23BCF07200833830 /* Sources */,
+				1F94869B23BCF07200833830 /* Frameworks */,
+				1F94869C23BCF07200833830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timeato-iOS";
+			productName = Timeato;
+			productReference = 1F94869E23BCF07200833830 /* Timeato-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F94869623BCF07200833830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jeff Kelley";
+				TargetAttributes = {
+					1F14907723C1475F0006883C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F4159F723C5239500874D7F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F7F078823BD897200D1C6D3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F7F078B23BD897200D1C6D3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F7F079A23BD897700D1C6D3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1F94869D23BCF07200833830 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F94869923BCF07200833830 /* Build configuration list for PBXProject "Timeato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F94869523BCF07200833830;
+			productRefGroup = 1F94869F23BCF07200833830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F94869D23BCF07200833830 /* Timeato-iOS */,
+				1F7F078823BD897200D1C6D3 /* Timeato-watchOS */,
+				1F7F078B23BD897200D1C6D3 /* Timeato-watchOS WatchKit App */,
+				1F7F079A23BD897700D1C6D3 /* Timeato-watchOS WatchKit Extension */,
+				1F14907723C1475F0006883C /* Timeato-tvOS */,
+				1F4159F723C5239500874D7F /* Timeato-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F14907623C1475F0006883C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F14908523C147600006883C /* LaunchScreen.storyboard in Resources */,
+				1F14908223C147600006883C /* Preview Assets.xcassets in Resources */,
+				1F14907F23C147600006883C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4159F623C5239500874D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F415A0523C5239600874D7F /* Main.storyboard in Resources */,
+				1F415A0223C5239600874D7F /* Preview Assets.xcassets in Resources */,
+				1F4159FF23C5239600874D7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F078723BD897200D1C6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F078A23BD897200D1C6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F079523BD897700D1C6D3 /* Assets.xcassets in Resources */,
+				1F7F079323BD897200D1C6D3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F079923BD897700D1C6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F07AA23BD897800D1C6D3 /* Preview Assets.xcassets in Resources */,
+				1F7F07A723BD897800D1C6D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F94869C23BCF07200833830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9486AE23BCF07600833830 /* LaunchScreen.storyboard in Resources */,
+				1F9486AB23BCF07600833830 /* Preview Assets.xcassets in Resources */,
+				1F9486A823BCF07600833830 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F14907423C1475F0006883C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F14908B23C1477C0006883C /* PomodoroTimerController.swift in Sources */,
+				1F14908A23C1477C0006883C /* DisplayLinkPublisher.swift in Sources */,
+				1F14908D23C1477C0006883C /* PreferencesForm.swift in Sources */,
+				1F14907D23C1475F0006883C /* RootView.swift in Sources */,
+				1F14908E23C1477C0006883C /* ProgressCircle.swift in Sources */,
+				1F14908C23C1477C0006883C /* PomodoroTimerView.swift in Sources */,
+				1F14908F23C1477C0006883C /* SettingsStorage.swift in Sources */,
+				1F14909023C1477C0006883C /* UserPreference.swift in Sources */,
+				1F14907B23C1475F0006883C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4159F423C5239500874D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F415A0C23C523DE00874D7F /* PomodoroTimerController.swift in Sources */,
+				1F415A0B23C523DE00874D7F /* DisplayLinkPublisher.swift in Sources */,
+				1F415A0E23C523DE00874D7F /* PreferencesForm.swift in Sources */,
+				1F4159FD23C5239500874D7F /* RootView.swift in Sources */,
+				1F415A0F23C523DE00874D7F /* ProgressCircle.swift in Sources */,
+				1F415A0D23C523DE00874D7F /* PomodoroTimerView.swift in Sources */,
+				1F415A1023C523DE00874D7F /* SettingsStorage.swift in Sources */,
+				1F415A1123C523DE00874D7F /* UserPreference.swift in Sources */,
+				1F4159FB23C5239500874D7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7F079723BD897700D1C6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDAF2C23C0FD890054CF3C /* PomodoroTimerController.swift in Sources */,
+				1F7F07B823BD8BA100D1C6D3 /* PomodoroTimerView.swift in Sources */,
+				1FBDAF3323C136080054CF3C /* PreferencesForm.swift in Sources */,
+				1F7F07A323BD897700D1C6D3 /* HostingController.swift in Sources */,
+				1F7F07A523BD897700D1C6D3 /* ExtensionDelegate.swift in Sources */,
+				1FBDAF3223C12C210054CF3C /* UserPreference.swift in Sources */,
+				1FBDAF2F23C1163D0054CF3C /* ProgressCircle.swift in Sources */,
+				1F7F07B723BD8B3600D1C6D3 /* DisplayLinkPublisher.swift in Sources */,
+				1FBDAF3623C139BA0054CF3C /* SettingsStorage.swift in Sources */,
+				1F584B2223BEB15D0053FBC9 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F94869A23BCF07200833830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9486A223BCF07200833830 /* AppDelegate.swift in Sources */,
+				1F9486A423BCF07200833830 /* SceneDelegate.swift in Sources */,
+				1F584B2423BEB1F90053FBC9 /* PreferencesForm.swift in Sources */,
+				1F9486A623BCF07200833830 /* PomodoroTimerView.swift in Sources */,
+				1F7F078623BCFA7A00D1C6D3 /* DisplayLinkPublisher.swift in Sources */,
+				1FBDAF3123C12C210054CF3C /* UserPreference.swift in Sources */,
+				1F584B2023BEB0F10053FBC9 /* RootView.swift in Sources */,
+				1FBDAF2E23C1163D0054CF3C /* ProgressCircle.swift in Sources */,
+				1FBDAF3523C139BA0054CF3C /* SettingsStorage.swift in Sources */,
+				1FBDAF2B23C0FD890054CF3C /* PomodoroTimerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7F078F23BD897200D1C6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7F078B23BD897200D1C6D3 /* Timeato-watchOS WatchKit App */;
+			targetProxy = 1F7F078E23BD897200D1C6D3 /* PBXContainerItemProxy */;
+		};
+		1F7F079E23BD897700D1C6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7F079A23BD897700D1C6D3 /* Timeato-watchOS WatchKit Extension */;
+			targetProxy = 1F7F079D23BD897700D1C6D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F14908323C147600006883C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F14908423C147600006883C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F415A0323C5239600874D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F415A0423C5239600874D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7F079123BD897200D1C6D3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7F079223BD897200D1C6D3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9486AC23BCF07600833830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9486AD23BCF07600833830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F14908723C147600006883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-tvOS";
+				PRODUCT_NAME = Timeato;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		1F14908823C147600006883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-tvOS";
+				PRODUCT_NAME = Timeato;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		1F415A0923C5239600874D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Timeato-macOS/Timeato_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F415A0A23C5239600874D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Timeato-macOS/Timeato_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F7F07AD23BD897800D1C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Timeato-watchKit App Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		1F7F07AE23BD897800D1C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeato-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Timeato-watchKit App Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		1F7F07B123BD897800D1C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				IBSC_MODULE = Timeato_watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Timeato-watchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS.watchkitapp";
+				PRODUCT_NAME = "Timeato-watchKit App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		1F7F07B223BD897800D1C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				IBSC_MODULE = Timeato_watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Timeato-watchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS.watchkitapp";
+				PRODUCT_NAME = "Timeato-watchKit App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		1F7F07B523BD897800D1C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS";
+				PRODUCT_NAME = "Timeato-watchOS";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F7F07B623BD897800D1C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.Timeato-watchOS";
+				PRODUCT_NAME = "Timeato-watchOS";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F9486B023BCF07600833830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		1F9486B123BCF07600833830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		1F9486B323BCF07600833830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Timeato;
+				PRODUCT_NAME = "Timeato-iOS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9486B423BCF07600833830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timeato-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Timeato;
+				PRODUCT_NAME = "Timeato-iOS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F14908923C147600006883C /* Build configuration list for PBXNativeTarget "Timeato-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F14908723C147600006883C /* Debug */,
+				1F14908823C147600006883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F415A0823C5239600874D7F /* Build configuration list for PBXNativeTarget "Timeato-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F415A0923C5239600874D7F /* Debug */,
+				1F415A0A23C5239600874D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7F07AC23BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7F07AD23BD897800D1C6D3 /* Debug */,
+				1F7F07AE23BD897800D1C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7F07B023BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7F07B123BD897800D1C6D3 /* Debug */,
+				1F7F07B223BD897800D1C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7F07B423BD897800D1C6D3 /* Build configuration list for PBXNativeTarget "Timeato-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7F07B523BD897800D1C6D3 /* Debug */,
+				1F7F07B623BD897800D1C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F94869923BCF07200833830 /* Build configuration list for PBXProject "Timeato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9486B023BCF07600833830 /* Debug */,
+				1F9486B123BCF07600833830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9486B223BCF07600833830 /* Build configuration list for PBXNativeTarget "Timeato-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9486B323BCF07600833830 /* Debug */,
+				1F9486B423BCF07600833830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F94869623BCF07200833830 /* Project object */;
+}
